@@ -22,6 +22,7 @@
         7. Education Styles
         8. Project Styles
         9. Skills Styles
+        9.2 Courses Styles
         10. Contact Styles
         11. Optional Section Styles
         12. Media Queries
@@ -695,6 +696,40 @@ footer {
 */
 
 #skills {
+    padding: 50px 15px;
+    text-align: center;
+
+    h2 {
+        color: $heading;
+        margin-bottom: 50px;
+    }
+
+    ul {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        max-width: 800px;
+    }
+
+    li {
+        display: inline-block;
+        margin: 7px;
+        padding: 5px 10px;
+        color: $heading;
+        background: darken($background-alt, 5%);
+        list-style: none;
+        cursor: default;
+        font-size: 1.2em;
+    }
+}
+
+/*
+    -------------------------------
+    ----- 9.2 Courses Styles -----
+    -------------------------------
+*/
+
+#courses {
     padding: 50px 15px;
     text-align: center;
 
